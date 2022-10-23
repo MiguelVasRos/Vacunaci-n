@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icono.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="citasStyle.css" />
+    <title>Document</title>
+</head>
+<body>
+    
+    <a href="index.html"><h2>Regresar</h2></a>
+
+    <div class="form">
+        <h1>Reservar</h1>
+        <label class="controls" for="nombre">Nombre: </label>
+        <input class="controls" type="text" placeholder="Ingresa tu Nombre">
+
+        <label class="controls" for="apellido">Apellido: </label>
+        <input class="controls" type="text" placeholder="Ingresa tu Apellido">
+
+        <label class="controls" for="direccion">Dirección: </label>
+        <input class="controls" type="text" placeholder="Ingresa Dirección">
+
+        <label class="controls" for="telefono">Teléfono: </label>
+        <input class="controls" type="text" placeholder="Ingresa tu teléfono">
+
+        <label class="controls" for="email">E-mail: </label>
+        <input class="controls" type="text" placeholder="Ingres tu Correo">                
+
+        <div id="elegirVa">
+            <label class="controls" for="vacuna">Vacuna:</label>
+            <select name="Vacunas" id="vacuna">
+              <option value="Pfizer">Pfizer</option>
+              <option value="AstraZeneca">AstraZeneca</option>
+              <option value="Sinovac">Sinovac</option>
+              <option value="CanSino">CanSino</option>
+              <option value="Janssen-Cilag">Janssen-Cilag</option>
+            </select>
+          </div>
+                
+        <div id="elegirLu">
+            <label class="controls" for="lugar">Lugar: </label>    
+            <select name="lugar" id="lugar1">
+              <option value="clinica11">Clinica 11</option>
+              <option value="clinica66">Clinica 66</option>
+              <option value="isste">ISSTE</option>
+              <option value="cecam">CECAM</option>
+              <option value="angeles">Los ángeles</option>
+            </select>
+          </div>
+
+          <input class="boton" type="button" value="Reservar">
+    </div>
+
+
+    
+</body>
+</html>

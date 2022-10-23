@@ -1,0 +1,94 @@
+
+html{
+    background-color: #4c9aa0;        
+}
+
+.form{
+    background-color: #4DB5BD;    
+    width: 450px;    
+    margin: auto;
+    margin-top: 55px;
+    padding: 10px;
+}
+
+label{
+    color: white;
+    font-size: 15pt;
+}
+
+.form h1{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+#campos{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.controls{
+    width: 250px;
+    height: 20px;
+    margin: 5px 0;    
+}
+
+#sesiones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 30px;
+}
+
+#sesiones img{
+    width: 20px;
+    height: 20px;
+}
+
+#sesiones p{
+    margin: 0 10px;
+    margin-top: 20px;
+}
+
+#insta, #face, #google{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;  
+}
+
+.boton{
+    margin: 20px;
+
+    width: 200px;
+    height: 25px;
+    background-color: #69d4db;
+    border: 0ch;
+
+    color: black;
+    font-size: 10pt;
+}
+
+a{
+    font-size: 12pt;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+
+h2{
+    color: white;
+    text-decoration: none;    
+    text-align: center;    
+    margin-left: 30px;
+    background-color: #4DB5BD;
+
+    width: 150px;
+
+    position: fixed;
+}
